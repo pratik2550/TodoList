@@ -12,7 +12,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.todolistwithroomdatabase.databinding.FragmentAddBinding
-import com.example.todolistwithroomdatabase.databinding.FragmentListBinding
 
 class AddFragment : Fragment() {
 
@@ -23,7 +22,6 @@ class AddFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_add, container,false)
 
         mTodoViewModel = ViewModelProvider(this).get(TodoViewModel::class.java)
