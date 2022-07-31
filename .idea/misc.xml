@@ -6,7 +6,9 @@
         <entry key="..\:/App android/TodoListWithRoomDatabase/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/App android/TodoListWithRoomDatabase/app/src/main/res/layout/fragment_add.xml" value="0.25" />
         <entry key="..\:/App android/TodoListWithRoomDatabase/app/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/App android/TodoListWithRoomDatabase/app/src/main/res/layout/fragment_update.xml" value="0.25" />
         <entry key="..\:/App android/TodoListWithRoomDatabase/app/src/main/res/layout/todo_list_recycler_view.xml" value="0.24895833333333334" />
+        <entry key="..\:/App android/TodoListWithRoomDatabase/app/src/main/res/menu/delete_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

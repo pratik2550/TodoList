@@ -2,6 +2,7 @@ package com.example.todolistwithroomdatabase
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.todolistwithroomdatabase.databinding.TodoListRecyclerViewBinding
 
@@ -20,6 +21,11 @@ class TodoListAdapter(): RecyclerView.Adapter<TodoListAdapter.MyViewHolder>() {
 
         val currentItem = todoList[position]
         holder.bind(currentItem)
+        holder.bind(currentItem)
+        holder.binding.root.setOnClickListener{
+            val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
+            holder.binding.root.findNavController().navigate(action)
+        }
     }
 
     override fun getItemCount(): Int {

@@ -22,4 +22,10 @@ class TodoViewModel(application: Application): AndroidViewModel(application) {
             repository.addTodo(todoList)
         }
     }
+
+    fun updateTodoList(todoList: TodoList) {
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateTodo(todoList)
+        }
+    }
 }
