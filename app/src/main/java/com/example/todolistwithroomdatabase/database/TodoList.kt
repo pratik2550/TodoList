@@ -1,4 +1,4 @@
-package com.example.todolistwithroomdatabase
+package com.example.todolistwithroomdatabase.database
 
 import android.os.Parcelable
 import androidx.room.Entity
@@ -7,7 +7,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 @Entity(tableName = "todoList")
-data class TodoList(
+data class  TodoList(
     @PrimaryKey(autoGenerate = true)
     val ID: Int,
     val title: String,

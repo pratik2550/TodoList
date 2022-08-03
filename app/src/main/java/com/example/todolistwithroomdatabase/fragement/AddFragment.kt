@@ -1,7 +1,6 @@
-package com.example.todolistwithroomdatabase
+package com.example.todolistwithroomdatabase.fragement
 
 import android.os.Bundle
-import android.os.ParcelFileDescriptor
 import android.text.TextUtils
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +10,9 @@ import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import com.example.todolistwithroomdatabase.R
+import com.example.todolistwithroomdatabase.database.TodoList
+import com.example.todolistwithroomdatabase.viewModel.TodoViewModel
 import com.example.todolistwithroomdatabase.databinding.FragmentAddBinding
 
 class AddFragment : Fragment() {

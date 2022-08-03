@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.example.todolistwithroomdatabase.database.TodoList
 import com.example.todolistwithroomdatabase.databinding.TodoListRecyclerViewBinding
 
 class TodoListAdapter(): RecyclerView.Adapter<TodoListAdapter.MyViewHolder>() {
